@@ -37,6 +37,13 @@ public class GraphicsTemplate extends JFrame {
 
         	g2.setColor(new Color(red, green, blue));
             g2.fillOval(x, y, diameter, diameter);
+            
+            repaint();
+            try {
+            	Thread.sleep(13);
+            } catch(InterruptedException e) {
+            	e.print 
+            }
     	}
     	
     }
